@@ -1,10 +1,10 @@
-import { Text, View, StyleSheet, Dimensions } from "react-native";
-import React, { useState, useEffect } from "react";
 import { Accelerometer } from "expo-sensors";
+import React, { useEffect, useState } from "react";
+import { Dimensions, StyleSheet, Text, View } from "react-native";
 
 const { width, height } = Dimensions.get("window");
 
-const CIRCULO_GRANDE = 300;
+const CIRCULO_GRANDE = 250;
 const BOLHA = 50;
 
 
