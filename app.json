@@ -38,7 +38,15 @@
             "backgroundColor": "#000000"
           }
         }
+
+      ],
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Allow $(PRODUCT_NAME) to access your device motion"
+        }
       ]
+
     ],
     "experiments": {
       "typedRoutes": true,
